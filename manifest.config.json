@@ -1,0 +1,13 @@
+{
+  "filesDir": "files",
+  "managedDirs": ["mods"],
+  "keep": [],
+  "once": ["config/**/*.client.toml", "options.txt", "servers.dat"],
+  "external": [
+    {
+      "path": "mods/exemple-mod-hors-depot.jar",
+      "url": "https://cdn.modrinth.com/data/XXXXXXXX/versions/YYYYYYYY/exemple.jar",
+      "disabled": true
+    }
+  ]
+}

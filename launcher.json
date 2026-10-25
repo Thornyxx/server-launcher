@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+
+  "branding": {
+    "name": "Mon Serveur",
+    "titleSuffix": "LAUNCHER",
+    "icon": "assets/icon.png",
+    "logo": "assets/logo.png",
+    "background": "assets/background.jpg",
+    "backgroundDim": 0.45,
+    "backgroundPattern": true,
+    "tagline": ["INDUSTRIE", "AUTOMATISATION", "FUN"],
+    "taglineHighlight": "last",
+    "colors": {
+      "accent": "#E8B33A",
+      "accentDark": "#B9831C",
+      "accentText": "#2A1C06",
+      "background": "#151413",
+      "surface": "#1C1B19",
+      "surfaceRaised": "#24221F",
+      "border": "#34312C",
+      "text": "#ECE7DF",
+      "textMuted": "#9C968C",
+      "online": "#4CC659",
+      "offline": "#D9534F"
+    },
+    "fonts": {
+      "display": null,
+      "body": null
+    }
+  },
+
+  "links": [
+    { "id": "shop", "label": "Boutique", "icon": "shop", "url": "https://boutique.exemple.fr", "highlight": true },
+    { "id": "discord", "label": "Discord", "icon": "discord", "url": "https://discord.gg/ton-invitation" }
+  ],
+
+  "texts": {
+    "statusOnline": "{online} / {max} EN LIGNE",
+    "statusOffline": "SERVEUR HORS LIGNE",
+    "versionBadge": "{loader} {minecraft}",
+    "loggedOutLabel": "NON CONNECTÉ",
+    "loggedOutTitle": "Connecte-toi pour jouer",
+    "loggedOutHint": "Il te faut un compte Microsoft qui possède Minecraft Java Edition.",
+    "loggedInLabel": "COMPTE MICROSOFT",
+    "loggedInHint": "Les mods et la configuration du serveur s’installent tout seuls.",
+    "logout": "Se déconnecter",
+    "loginButton": "SE CONNECTER",
+    "playButton": "JOUER"
+  },
+
+  "server": {
+    "host": "play.exemple.fr",
+    "port": 25565,
+    "autoConnect": true,
+    "statusRefreshSeconds": 30
+  },
+
+  "game": {
+    "minecraft": "1.21.1",
+    "loader": "neoforge",
+    "loaderVersion": "latest",
+    "instance": "mon-serveur",
+    "memory": { "defaultMax": 6, "min": 2 },
+    "jvmArgs": [],
+    "gameArgs": []
+  },
+
+  "files": {
+    "manifest": "manifest.json"
+  },
+
+  "maintenance": {
+    "enabled": false,
+    "message": "Le serveur est en maintenance, reviens un peu plus tard."
+  },
+
+  "launcherUpdate": {
+    "latestVersion": "1.0.0",
+    "url": "https://github.com/TON-PSEUDO/TON-DEPOT/releases/latest",
+    "message": "Une nouvelle version du launcher est disponible."
+  }
+}
