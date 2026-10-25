@@ -51,7 +51,7 @@
 
   "server": {
     "host": "play.yorucraft.fr",
-    "port": 25565,
+    "port": 25952,
     "autoConnect": true,
     "statusRefreshSeconds": 30
   },
