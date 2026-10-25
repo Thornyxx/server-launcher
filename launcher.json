@@ -50,7 +50,7 @@
   },
 
   "server": {
-    "host": "play.exemple.fr",
+    "host": "play.yorucraft.fr",
     "port": 25565,
     "autoConnect": true,
     "statusRefreshSeconds": 30
