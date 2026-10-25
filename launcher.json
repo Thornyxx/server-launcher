@@ -43,7 +43,7 @@
     "loggedOutTitle": "Connecte-toi pour jouer",
     "loggedOutHint": "Il te faut un compte Microsoft qui possède Minecraft Java Edition.",
     "loggedInLabel": "COMPTE MICROSOFT",
-    "loggedInHint": "Les mods et la configuration du serveur s’installent tout seuls.",
+    "loggedInHint": "Les mods et la configuration du serveur s’installent automatiquement.",
     "logout": "Se déconnecter",
     "loginButton": "SE CONNECTER",
     "playButton": "JOUER"
